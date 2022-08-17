@@ -3,9 +3,44 @@ Zotero Checklist
 
 # Cooworking session August 17 2022: Zotero, Quarto and Github
 
-## Download Zotero
+# Getting started
 
-![](https://www.zotero.org)
+1.  Go to Zotero
+    -   Create an account
+
+    -   Download and install Zotero
+2.  Add your references
+    -   Drag and drop from folder
+
+    -   Import from Mendeley (online seems to work best)
+
+        -   File/import
+
+        -   ![](figures/Screen%20Shot%202022-08-17%20at%2011.27.45%20AM.png)
+
+    -   Use DOI to include reference
+
+    -   Add from browser
+3.  Join a group
+    -   [SEDAR](https://www.zotero.org/groups/4750864/sedar/library)
+
+# Drawbacks
+
+1.  Repository limit of 100 MB
+
+-   (2GB of storage for a year is \$20, unsure if it works)
+
+2.  Gray literature, papers with no DOI or scanned
+
+-   NB: can SEDAR have DOI issued to reports?
+-   Manual work involved
+
+# Integrating Zotero and Quarto
+
+Note: I am in a Mac, using the latest version of RStudio (2022.07.1
+Build 554)
+
+1.  Rstudio - Preferences - RMarkdown - Citations
 
 This repository is a scientific product and is not official
 communication of the National Oceanic and Atmospheric Administration, or
