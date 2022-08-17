@@ -1,6 +1,6 @@
 ---
 title: "Zotero Checklist"
-format: html
+format: gfm
 editor: visual
 ---
 
