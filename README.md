@@ -42,6 +42,10 @@ Build 554)
 
 1.  Rstudio - Preferences - RMarkdown - Citations
 
+![](figures/Screen%20Shot%202022-08-17%20at%2011.36.08%20AM.png)
+
+------------------------------------------------------------------------------------------
+
 This repository is a scientific product and is not official
 communication of the National Oceanic and Atmospheric Administration, or
 the United States Department of Commerce. All NOAA GitHub project code
