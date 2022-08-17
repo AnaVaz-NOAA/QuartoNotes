@@ -1,7 +1,7 @@
 Zotero Checklist
 ================
 
-# Cooworking session August 17 2022: Zotero, Quarto and Github
+# SEFSC Coworking session August 17 2022: Zotero, Quarto and Github
 
 # Getting started
 
