@@ -6,7 +6,9 @@ editor: visual
 
 # SEFSC Coworking session August 17 2022: Zotero, Quarto and Github
 
-# Getting started
+# [Getting started with Quarto](https://github.com/AnaVaz-NOAA/QuartoNotes/blob/main/Other_Notes.md)
+
+# Getting started with Zotero
 
 1.  Go to Zotero
     -   Create an account
