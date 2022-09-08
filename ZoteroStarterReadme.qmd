@@ -1,18 +1,16 @@
 ---
-title: "Untitled"
+title: "Getting started with Zotero"
 format: gfm
 editor: visual
 ---
 
-## \# Getting started with Zotero
-
-1\. Go to Zotero
+1.  Go to Zotero
 
 -   Create an account
 
 -   Download and install Zotero
 
-2\. Add your references
+2.  Add your references
 
 -   Drag and drop from folder
 
@@ -20,32 +18,32 @@ editor: visual
 
 -   File/import
 
--   !\[\](figures/Screen%20Shot%202022-08-17%20at%2011.27.45%20AM.png)
+-   ![](figures/Screen%20Shot%202022-08-17%20at%2011.27.45%20AM.png)
 
 -   Use DOI to include reference
 
 -   Add from browser
 
-3\. Join a group
+3.  Join a group
 
--   \[SEDAR\](https://www.zotero.org/groups/4750864/sedar/library)
+-   [SEDAR](https://www.zotero.org/groups/4750864/sedar/library)
 
-\# Drawbacks
+# Drawbacks
 
-1\. Repository limit of 100 MB
+1.  Repository limit of 100 MB
 
-\- (2GB of storage for a year is \\\$20, unsure if it works)
+-   (2GB of storage for a year is \\\$20, unsure if it works)
 
-2\. Gray literature, papers with no DOI or scanned
+2.  Gray literature, papers with no DOI or scanned
 
-\- NB: can SEDAR have DOI issued to reports?
+-   NB: can SEDAR have DOI issued to reports?
 
-\- Manual work involved
+-   Manual work involved
 
-\# Integrating Zotero and Quarto
+# Integrating Zotero and Quarto
 
 Note: I am in a Mac, using the latest version of RStudio (2022.07.1 Build 554)
 
-1\. Rstudio - Preferences - RMarkdown - Citations
+1.  Rstudio - Preferences - RMarkdown - Citations
 
-!\[\](figures/Screen%20Shot%202022-08-17%20at%2011.36.08%20AM.png)
+![](figures/Screen%20Shot%202022-08-17%20at%2011.36.08%20AM.png)

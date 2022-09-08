@@ -1,4 +1,4 @@
-Untitled
+My notes on Quarto
 ================
 
 # Creating a quarto project
@@ -23,10 +23,14 @@ contain full Quarto embedded.
 
         -   File, New Project, Version Control
 
+            ![](figures/gitrepo.png)
+
         -   Include the http URL (or ssh if http does not work, see
             notes)
 
         -   Chose the path to include the project
+
+            ![](figures/getfromgit.png)
 
         -   Done, your github repository is clone and you can edit on
             RStudio
@@ -37,6 +41,8 @@ contain full Quarto embedded.
 
             -   Chose the file type (Pdf, WordDoc, html, PowerPoint,
                 etc)
+
+                ![](figures/newfile.png)
 
             -   Edit your file on Visual or source mode on RStudio
 
@@ -53,22 +59,25 @@ contain full Quarto embedded.
             -   add files that you do not want to be tracked by git
                 (either temporary files, or system files, etc)
 
-            -   Files and directories in by standard gitignore \# Mac
-                files .DS_Store
+            -   Files and directories in my standard gitignore
 
-            # Mac files
+                    # Mac files 
+                    .DS_Store
 
-            .DS_Store
+                    #Quarto files 
+                    /.quarto/
 
-            \#Quarto files /.quarto/
+                    # R files
+                    .Rproj.user 
+                    .Rproj.user/ 
+                    .Rhistory
+                    *.RData
+                    *.Ruserdata
 
-            # R files
-
-            .Rproj.user .Rproj.user/ .Rhistory
-
-            # conversion files (from qmd to pdf)
-
-            *.tex* .aux \*.log
+                    # conversion files (from qmd to pdf) 
+                    *.tex
+                    *.aux 
+                    *.log
 
 ## Converting Markdown to Quarto:
 

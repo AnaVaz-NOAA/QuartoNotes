@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "My notes on Quarto"
 format: gfm
 editor: visual
 ---
@@ -24,9 +24,13 @@ You can start a new quarto project from scratch, but you can also convert an exi
 
         -   File, New Project, Version Control
 
+            ![](figures/gitrepo.png)
+
         -   Include the http URL (or ssh if http does not work, see notes)
 
         -   Chose the path to include the project
+
+            ![](figures/getfromgit.png)
 
         -   Done, your github repository is clone and you can edit on RStudio
 
@@ -35,6 +39,8 @@ You can start a new quarto project from scratch, but you can also convert an exi
         -   File, New File, Quarto Document (or Quarto Presentation)
 
             -   Chose the file type (Pdf, WordDoc, html, PowerPoint, etc)
+
+                ![](figures/newfile.png)
 
             -   Edit your file on Visual or source mode on RStudio
 
@@ -48,21 +54,25 @@ You can start a new quarto project from scratch, but you can also convert an exi
 
             -   add files that you do not want to be tracked by git (either temporary files, or system files, etc)
 
-            -   Files and directories in by standard gitignore \# Mac files .DS_Store
+            -   Files and directories in my standard gitignore
 
-            # Mac files
+                    # Mac files 
+                    .DS_Store
 
-            .DS_Store
+                    #Quarto files 
+                    /.quarto/
 
-            #Quarto files /.quarto/
+                    # R files
+                    .Rproj.user 
+                    .Rproj.user/ 
+                    .Rhistory
+                    *.RData
+                    *.Ruserdata
 
-            # R files
-
-            .Rproj.user .Rproj.user/ .Rhistory
-
-            # conversion files (from qmd to pdf)
-
-            *.tex* .aux \*.log
+                    # conversion files (from qmd to pdf) 
+                    *.tex
+                    *.aux 
+                    *.log
 
 ## Converting Markdown to Quarto:
 
@@ -98,4 +108,4 @@ You can start a new quarto project from scratch, but you can also convert an exi
 
 -   For cloning a repo: http option might not work for some setups, which will require the ssh option.
 
-- This also requires the creation of a ssh key - [see github page help for that.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+-   This also requires the creation of a ssh key - [see github page help for that.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
