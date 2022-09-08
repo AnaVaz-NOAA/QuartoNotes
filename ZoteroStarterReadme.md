@@ -1,8 +1,5 @@
----
-title: "Untitled"
-format: gfm
-editor: visual
----
+Untitled
+================
 
 ## \# Getting started with Zotero
 
@@ -44,7 +41,8 @@ editor: visual
 
 \# Integrating Zotero and Quarto
 
-Note: I am in a Mac, using the latest version of RStudio (2022.07.1 Build 554)
+Note: I am in a Mac, using the latest version of RStudio (2022.07.1
+Build 554)
 
 1\. Rstudio - Preferences - RMarkdown - Citations
 
