@@ -1,7 +1,5 @@
-Readme to start with Quarto Documents
+Zotero, Quarto and Github Notes
 ================
-
-# Zotero, Quarto and Github Notes
 
 # [Getting started with Quarto](https://github.com/AnaVaz-NOAA/QuartoNotes/blob/main/QuartoStarter.md)
 
