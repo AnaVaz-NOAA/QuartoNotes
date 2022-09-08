@@ -79,6 +79,11 @@ contain full Quarto embedded.
                     *.aux 
                     *.log
 
+<!-- -->
+
+-   see note at end on how to fix your gitignore if you want to stop
+    tracking files after they were already pushed to your repo.
+
 ## Converting Markdown to Quarto:
 
 -   **In the terminal**
@@ -122,3 +127,49 @@ contain full Quarto embedded.
 -   This also requires the creation of a ssh key - [see github page help
     for
     that.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+## To fix gitignore (to stop tracking files already in your repo)
+
+From
+[stackexchange](https://stackoverflow.com/questions/1139762/ignore-files-that-have-already-been-committed-to-a-git-repository)
+
+-   To untrack a single file that has already been added/initialized to
+    your repository
+
+    `git rm --cached filename`
+
+-   To untrack all files/directories in your .gitignore
+
+    -   First, **commit any outstanding code changes**
+
+    -   Then, on the terminal, run this command to remove changed files
+        from the index (staging area):
+
+        `git rm -r --cached`
+
+    -   Add all changes to the staged area
+
+        `git add .`
+
+    -   Then commit it:
+
+        `git commit -m ".gitignore is now working"`
+
+To undo `git rm --cached filename`, use `git add filename`.
+
+Notes from the original answer:
+
+-   Make sure to **commit changes** before running git add.
+
+-   Please be careful, when you push this to a repository and pull from
+    somewhere else into a state where those files are still tracked, the
+    files will be DELETED.
+
+    -   Note from Ana - I got into this, and could return my files, but
+        I went through a stressful half an hour around midnight there.
+
+Another note - from another answer, it is funny to look at how many
+people have done this by looking for the `".gitignore is now working"`
+commit message:
+
+[github.com/search?q=.gitignore+is+now+working&type=Commits](https://github.com/search?q=.gitignore+is+now+working&type=Commits) 
