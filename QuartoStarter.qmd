@@ -106,6 +106,6 @@ You can start a new quarto project from scratch, but you can also convert an exi
 
 # Notes of issues encountered
 
--   For cloning a repo: http option might not work for some setups, which will require the ssh option.
+-   For cloning a repo: http option might not work for some setups (while it works for my desktop, it doesn't for my laptop), which will require the ssh option.
 
 -   This also requires the creation of a ssh key - [see github page help for that.](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)

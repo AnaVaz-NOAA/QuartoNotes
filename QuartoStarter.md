@@ -115,8 +115,9 @@ contain full Quarto embedded.
 
 # Notes of issues encountered
 
--   For cloning a repo: http option might not work for some setups,
-    which will require the ssh option.
+-   For cloning a repo: http option might not work for some setups
+    (while it works for my desktop, it doesn’t for my laptop), which
+    will require the ssh option.
 
 -   This also requires the creation of a ssh key - [see github page help
     for
