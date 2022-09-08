@@ -3,7 +3,7 @@ Zotero, Quarto and Github Notes
 
 # [Getting started with Quarto](https://github.com/AnaVaz-NOAA/QuartoNotes/blob/main/QuartoStarter.md)
 
-# [Getting started with Zotero](https://github.com/AnaVaz-NOAA/QuartoNotes/blob/main/ZoteroStarterRedme.md)
+# [Getting started with Zotero](https://github.com/AnaVaz-NOAA/QuartoNotes/blob/main/ZoteroStarterReadme.md)
 
 ------------------------------------------------------------------------------------------
 
